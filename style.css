@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", serif;
+}
+
+body{
+   background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+   width: 37%;
+   height: 40vh;
+   /* background-color: yellow; */
+   /* padding: 1rem; */
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.top{
+    width: 100%;
+    height: 13vh;
+  background-color: rgb(6, 6, 6);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  padding: 1rem;
+  gap: 2rem;
+  box-shadow:0 0 50px rgb(146, 146, 146);
+}
+
+.date{
+    width: 55%;
+    height: 6.5vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size:15px;
+}
+
+.calculate{
+    padding:1rem 3rem ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+.calculate:hover{
+    color: white;
+    background-color:purple ;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px grey;
+}
+
+.year-box p:first-child,
+.month-box p:first-child,
+.days-box p:first-child{
+    font-size: 2.5rem;
+}
+
+.year-box,
+.month-box,
+.days-box{
+    width: 120px;
+    height: 125px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    box-shadow:0 0 50px rgb(146, 146, 146);
+
+}
+
+
+
+.down{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
